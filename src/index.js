@@ -1,5 +1,4 @@
-﻿import { addDiv, addHeader, addImage } from './pageload';
-import { createMenu } from './menu';
+﻿import { createMenu } from './menu';
 import { createContact } from './contact';
 import { createHome } from './home';
 import './style.css';

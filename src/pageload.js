@@ -14,7 +14,7 @@ function addHeader(content, level, target) {
 }
 
 function addImage(source, width, target) {
-    const newImg = document.createElement("img");
+    const newImg = new Image();
     newImg.src = source;
     newImg.width = width;
     target.appendChild(newImg);
